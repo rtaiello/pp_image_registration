@@ -21,14 +21,14 @@ which provides the `conda` package manager.
 Anaconda can be installed in your user directory and does not interfere with the system Python installation.
 ### How to run
 - Download the repository: `git clone https://github.com/rtaiello/PP_Image_Registration`
-- Create the environment`conda create -n pp_img_regr python=3.7`
-- Activate the environment`conda activate pp_img_regr`
-- Install the dependencies `pip install -r requirements.txt`
+- Create the environment: `conda create -n pp_img_regr python=3.7`
+- Activate the environment: `conda activate pp_img_regr`
+- Install the dependencies: `pip install -r requirements.txt`
 
 ## Results
 * Linear Transformation - [wandb.ai](https://wandb.ai/ppir/miccai_2022_linear?workspace=user-riccardo-taiello)
 * Non-Linear Transformation - [wandb.ai](https://wandb.ai/ppir/miccai_2022_linear?workspace=user-riccardo-taiello)
-* Supplementary Material - [wandb.ai]()
+* Supplementary Material (Coming soon) - [wandb.ai]()
 ## Authors
 * **Riccardo Taiello**  - [github](https://github.com/rtaiello) - [website](https://rtaiello.github.io)
 * **Melek Önen**  - [website](https://www.eurecom.fr/en/people/onen-melek)
