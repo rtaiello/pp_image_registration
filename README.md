@@ -1,6 +1,8 @@
 <div align="center">    
  
 # Privacy Preserving Image Registration
+![Inria](https://img.shields.io/badge/-INRIA-red) 
+![Eurecom](https://img.shields.io/badge/-EURECOM-blue) <br> 
 [![Conference](https://img.shields.io/badge/MICCAI-2022-blue)](https://conferences.miccai.org/2022/en/)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 <br>
