@@ -18,7 +18,7 @@ This repository contains the official code of the research paper [Privacy Preser
 ## How to run
 ### Dependecies
 You'll need a working Python environment to run the code. 
-The recommended way to set up your environment is through the Anaconda Python distribution(https://www.anaconda.com/products/distribution)
+The recommended way to set up your environment is through the [Anaconda Python distribution](https://www.anaconda.com/products/distribution)
 which provides the `conda` package manager. 
 Anaconda can be installed in your user directory and does not interfere with the system Python installation.
 ### How to run
