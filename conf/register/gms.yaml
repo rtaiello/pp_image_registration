@@ -1,0 +1,5 @@
+_target_: src.registers.gms_register.GMSRegister
+percent_pixels: 5
+max_bad: 10
+max_iter: 500
+name: gms

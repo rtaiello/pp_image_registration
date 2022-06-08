@@ -1,0 +1,3 @@
+_target_: src.joint_computations.spdz.SPDZ
+n_parties: 2
+name: spdz

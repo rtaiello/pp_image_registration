@@ -1,0 +1,22 @@
+template: ${oc.env:DATA_ROOT}/linear/template.png
+moving: ${oc.env:DATA_ROOT}/linear/moving.png
+dir: ${oc.env:DATA_ROOT}/linear
+iterations:
+    20.0:
+      max_iter: -1
+      max_bad: 10
+    10.0:
+      max_iter: -1
+      max_bad: 10
+    5.0:
+      max_iter: -1
+      max_bad: 10
+    2.0:
+      max_iter: -1
+      max_bad: 10
+    1.0:
+      max_iter: 1
+      max_bad: 10
+scale: 1
+preprocessing:
+  _target_: src.common.preprocessing.linear

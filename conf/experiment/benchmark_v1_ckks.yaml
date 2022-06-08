@@ -1,0 +1,15 @@
+# @package _global_
+defaults:
+  - override /model: cubic_spline
+  - override /data: brain_3d_data
+  - override /metric: residual
+  - override /register: urs
+  - override /joint_computation: clear #ckks_4096
+register:
+  max_bad: 200
+data:
+  scale: 1e10 # maybe 1e15
+logging:
+  debug: True
+  wandb:
+    project: benchmark_ckks

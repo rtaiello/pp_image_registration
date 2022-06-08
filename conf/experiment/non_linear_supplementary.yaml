@@ -1,0 +1,5 @@
+# @package _global_
+defaults:
+  - override /model: cubic_spline
+  - override /data: brain_3d_data
+#  - override /model: +cubic_spline.non_linear.spacing=5

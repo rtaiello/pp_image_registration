@@ -1,0 +1,18 @@
+# @package _global_
+defaults:
+  - override /model: cubic_spline
+  - override /data: brain_3d_data
+  - override /metric: residual
+  - override /register: base
+  - override /joint_computation: ckks_4096_v2
+#  - override /model: +cubic_spline.non_linear.spacing=5
+register:
+  max_iter: 200
+  max_bad: 50
+data:
+  scale: 1e10 # maybe 1e15
+
+logging:
+  debug: False
+  wandb:
+    project: benchmark_ckks

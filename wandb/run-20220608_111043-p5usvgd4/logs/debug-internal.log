@@ -1,0 +1,727 @@
+2022-06-08 11:10:43,021 INFO    BackendThr:25550 [internal.py:wandb_internal():92] W&B internal server running at pid: 25550, started at: 2022-06-08 11:10:43.020930
+2022-06-08 11:10:43,022 INFO    MainThread:25550 [wandb_init.py:init():480] backend started and connected
+2022-06-08 11:10:43,023 DEBUG   MainThread:25550 [config_util.py:dict_from_config_file():102] no default config file found in config-defaults.yaml
+2022-06-08 11:10:43,024 INFO    MainThread:25550 [wandb_init.py:init():550] updated telemetry
+2022-06-08 11:10:43,027 INFO    WriterThread:25550 [datastore.py:open_for_write():77] open: /home/rtaiello/PycharmProjects/PP_Image_Registration/wandb/run-20220608_111043-p5usvgd4/run-p5usvgd4.wandb
+2022-06-08 11:10:43,028 DEBUG   SenderThread:25550 [sender.py:send():235] send: header
+2022-06-08 11:10:43,029 INFO    MainThread:25550 [wandb_init.py:init():581] communicating current version
+2022-06-08 11:10:43,030 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: check_version
+2022-06-08 11:10:43,030 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: check_version
+2022-06-08 11:10:43,108 INFO    MainThread:25550 [wandb_init.py:init():586] got version response upgrade_message: "wandb version 0.12.17 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-06-08 11:10:43,109 INFO    MainThread:25550 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2022-06-08 11:10:43,109 DEBUG   SenderThread:25550 [sender.py:send():235] send: run
+2022-06-08 11:10:43,304 INFO    MainThread:25550 [wandb_init.py:init():624] starting run threads in backend
+2022-06-08 11:10:43,307 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: run_start
+2022-06-08 11:10:43,312 DEBUG   HandlerThread:25550 [meta.py:__init__():36] meta init
+2022-06-08 11:10:43,313 DEBUG   HandlerThread:25550 [meta.py:__init__():50] meta init done
+2022-06-08 11:10:43,312 INFO    SenderThread:25550 [dir_watcher.py:__init__():169] watching files in: /home/rtaiello/PycharmProjects/PP_Image_Registration/wandb/run-20220608_111043-p5usvgd4/files
+2022-06-08 11:10:43,313 DEBUG   HandlerThread:25550 [meta.py:probe():210] probe
+2022-06-08 11:10:43,314 INFO    SenderThread:25550 [sender.py:_start_run_threads():812] run started: p5usvgd4 with start time 1654679443
+2022-06-08 11:10:43,316 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:43,317 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:43,321 DEBUG   HandlerThread:25550 [meta.py:_setup_git():200] setup git
+2022-06-08 11:10:43,340 DEBUG   HandlerThread:25550 [meta.py:_setup_git():207] setup git done
+2022-06-08 11:10:43,341 DEBUG   HandlerThread:25550 [meta.py:_save_pip():54] save pip
+2022-06-08 11:10:43,342 DEBUG   HandlerThread:25550 [meta.py:_save_pip():68] save pip done
+2022-06-08 11:10:43,343 DEBUG   HandlerThread:25550 [meta.py:_save_conda():75] save conda
+2022-06-08 11:10:44,116 DEBUG   HandlerThread:25550 [meta.py:_save_conda():85] save conda done
+2022-06-08 11:10:44,117 DEBUG   HandlerThread:25550 [meta.py:probe():248] probe done
+2022-06-08 11:10:44,146 DEBUG   SenderThread:25550 [sender.py:send():235] send: files
+2022-06-08 11:10:44,147 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-metadata.json with policy now
+2022-06-08 11:10:44,154 INFO    MainThread:25550 [wandb_run.py:_console_start():1827] atexit reg
+2022-06-08 11:10:44,155 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-08 11:10:44,155 INFO    MainThread:25550 [wandb_run.py:_redirect():1701] redirect: SettingsConsole.WRAP
+2022-06-08 11:10:44,155 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: stop_status
+2022-06-08 11:10:44,155 INFO    MainThread:25550 [wandb_run.py:_redirect():1738] Wrapping output streams.
+2022-06-08 11:10:44,158 INFO    MainThread:25550 [wandb_run.py:_redirect():1762] Redirects installed.
+2022-06-08 11:10:44,158 INFO    MainThread:25550 [wandb_init.py:init():651] run started, returning control to user process
+2022-06-08 11:10:44,314 INFO    Thread-11 :25550 [dir_watcher.py:_on_file_created():217] file/dir created: /home/rtaiello/PycharmProjects/PP_Image_Registration/wandb/run-20220608_111043-p5usvgd4/files/wandb-summary.json
+2022-06-08 11:10:44,314 INFO    Thread-11 :25550 [dir_watcher.py:_on_file_created():217] file/dir created: /home/rtaiello/PycharmProjects/PP_Image_Registration/wandb/run-20220608_111043-p5usvgd4/files/wandb-metadata.json
+2022-06-08 11:10:44,315 INFO    Thread-11 :25550 [dir_watcher.py:_on_file_created():217] file/dir created: /home/rtaiello/PycharmProjects/PP_Image_Registration/wandb/run-20220608_111043-p5usvgd4/files/output.log
+2022-06-08 11:10:44,315 INFO    Thread-11 :25550 [dir_watcher.py:_on_file_created():217] file/dir created: /home/rtaiello/PycharmProjects/PP_Image_Registration/wandb/run-20220608_111043-p5usvgd4/files/requirements.txt
+2022-06-08 11:10:44,315 INFO    Thread-11 :25550 [dir_watcher.py:_on_file_created():217] file/dir created: /home/rtaiello/PycharmProjects/PP_Image_Registration/wandb/run-20220608_111043-p5usvgd4/files/conda-environment.yaml
+2022-06-08 11:10:44,317 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:44,317 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:44,318 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:44,321 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:44,321 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:44,321 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:44,329 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:44,329 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:44,329 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:44,332 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:44,332 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:44,333 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:44,336 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:44,336 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:44,336 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:44,339 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:44,339 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:44,339 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:44,342 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:44,342 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:44,343 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:44,346 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:44,346 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:44,346 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:44,349 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:44,349 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:44,349 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:44,352 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:44,352 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:44,353 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:44,362 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:44,362 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:44,362 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:44,367 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:44,368 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:44,368 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:44,373 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:44,373 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:44,373 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:44,377 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:44,377 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:44,377 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:44,380 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:44,380 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:44,381 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:44,385 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:44,385 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:44,385 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:44,388 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:44,389 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:44,389 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:44,392 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:44,392 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:44,393 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:44,396 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:44,396 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:44,397 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:44,400 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:44,400 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:44,400 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:44,403 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:44,404 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:44,404 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:44,568 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:44,568 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:44,568 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:44,579 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:44,579 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:44,579 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:44,592 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:44,592 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:44,593 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:44,605 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:44,606 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:44,606 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:44,618 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:44,619 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:44,619 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:44,645 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:44,645 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:44,645 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:44,657 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:44,657 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:44,658 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:44,694 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:44,695 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:44,695 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:44,707 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:44,707 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:44,708 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:44,720 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:44,720 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:44,720 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:44,732 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:44,732 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:44,733 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:44,735 INFO    Thread-14 :25550 [upload_job.py:push():137] Uploaded file /tmp/tmp4yj_3cqjwandb/xu6ea1j2-wandb-metadata.json
+2022-06-08 11:10:44,747 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:44,747 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:44,748 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:44,760 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:44,760 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:44,761 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:44,773 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:44,773 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:44,774 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:44,787 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:44,787 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:44,788 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:44,800 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:44,800 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:44,801 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:44,813 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:44,813 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:44,814 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:44,827 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:44,827 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:44,828 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:45,023 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:45,024 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:45,024 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:45,062 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:45,062 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:45,063 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:45,100 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:45,100 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:45,101 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:45,139 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:45,140 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:45,140 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:45,178 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:45,178 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:45,178 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:45,231 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:45,231 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:45,232 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:45,273 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:45,274 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:45,274 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:45,313 INFO    Thread-11 :25550 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/rtaiello/PycharmProjects/PP_Image_Registration/wandb/run-20220608_111043-p5usvgd4/files/wandb-summary.json
+2022-06-08 11:10:45,318 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:45,318 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:45,320 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:45,370 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:45,370 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:45,371 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:45,408 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:45,408 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:45,409 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:45,460 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:45,460 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:45,460 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:45,498 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:45,499 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:45,499 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:45,541 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:45,541 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:45,542 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:45,589 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:45,589 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:45,590 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:45,657 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:45,657 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:45,657 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:46,072 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:46,072 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:46,072 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:46,313 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:46,313 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:46,313 INFO    Thread-11 :25550 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/rtaiello/PycharmProjects/PP_Image_Registration/wandb/run-20220608_111043-p5usvgd4/files/wandb-summary.json
+2022-06-08 11:10:46,314 INFO    Thread-11 :25550 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/rtaiello/PycharmProjects/PP_Image_Registration/wandb/run-20220608_111043-p5usvgd4/files/output.log
+2022-06-08 11:10:46,314 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:46,539 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:46,539 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:46,540 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:46,761 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:46,761 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:46,762 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:46,982 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:46,982 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:46,983 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:47,216 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:47,216 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:47,216 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:47,314 INFO    Thread-11 :25550 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/rtaiello/PycharmProjects/PP_Image_Registration/wandb/run-20220608_111043-p5usvgd4/files/wandb-summary.json
+2022-06-08 11:10:47,505 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:47,505 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:47,508 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:47,729 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:47,729 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:47,730 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:47,942 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:47,942 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:47,943 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:48,154 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:48,154 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:48,155 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:48,314 INFO    Thread-11 :25550 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/rtaiello/PycharmProjects/PP_Image_Registration/wandb/run-20220608_111043-p5usvgd4/files/wandb-summary.json
+2022-06-08 11:10:48,314 INFO    Thread-11 :25550 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/rtaiello/PycharmProjects/PP_Image_Registration/wandb/run-20220608_111043-p5usvgd4/files/output.log
+2022-06-08 11:10:48,362 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:48,362 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:48,363 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:48,575 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:48,576 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:48,576 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:48,784 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:48,785 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:48,785 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:48,990 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:48,991 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:48,991 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:49,199 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:49,199 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:49,200 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:49,314 INFO    Thread-11 :25550 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/rtaiello/PycharmProjects/PP_Image_Registration/wandb/run-20220608_111043-p5usvgd4/files/wandb-summary.json
+2022-06-08 11:10:49,410 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:49,410 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:49,411 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:49,618 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:49,619 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:49,621 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:50,314 INFO    Thread-11 :25550 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/rtaiello/PycharmProjects/PP_Image_Registration/wandb/run-20220608_111043-p5usvgd4/files/wandb-summary.json
+2022-06-08 11:10:50,315 INFO    Thread-11 :25550 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/rtaiello/PycharmProjects/PP_Image_Registration/wandb/run-20220608_111043-p5usvgd4/files/output.log
+2022-06-08 11:10:50,524 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:50,524 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:50,525 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:51,273 DEBUG   SenderThread:25550 [sender.py:send():235] send: history
+2022-06-08 11:10:51,273 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:51,273 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:51,282 INFO    MainThread:25550 [wandb_run.py:finish():1468] finishing run privacy-ai/affine/p5usvgd4
+2022-06-08 11:10:51,282 INFO    MainThread:25550 [wandb_run.py:_atexit_cleanup():1797] got exitcode: 0
+2022-06-08 11:10:51,283 INFO    MainThread:25550 [wandb_run.py:_restore():1769] restore
+2022-06-08 11:10:51,315 INFO    Thread-11 :25550 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/rtaiello/PycharmProjects/PP_Image_Registration/wandb/run-20220608_111043-p5usvgd4/files/wandb-summary.json
+2022-06-08 11:10:51,315 INFO    Thread-11 :25550 [dir_watcher.py:_on_file_created():217] file/dir created: /home/rtaiello/PycharmProjects/PP_Image_Registration/wandb/run-20220608_111043-p5usvgd4/files/hparams.yaml
+2022-06-08 11:10:51,315 INFO    Thread-11 :25550 [dir_watcher.py:_on_file_created():217] file/dir created: /home/rtaiello/PycharmProjects/PP_Image_Registration/wandb/run-20220608_111043-p5usvgd4/files/displacement.npy
+2022-06-08 11:10:52,197 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-08 11:10:52,198 DEBUG   SenderThread:25550 [sender.py:send():235] send: telemetry
+2022-06-08 11:10:52,198 DEBUG   SenderThread:25550 [sender.py:send():235] send: exit
+2022-06-08 11:10:52,198 INFO    SenderThread:25550 [sender.py:send_exit():371] handling exit code: 0
+2022-06-08 11:10:52,198 INFO    SenderThread:25550 [sender.py:send_exit():373] handling runtime: 8
+2022-06-08 11:10:52,199 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:52,200 INFO    SenderThread:25550 [sender.py:send_exit():379] send defer
+2022-06-08 11:10:52,200 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: poll_exit
+2022-06-08 11:10:52,201 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: defer
+2022-06-08 11:10:52,202 INFO    HandlerThread:25550 [handler.py:handle_request_defer():154] handle defer: 0
+2022-06-08 11:10:52,203 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: defer
+2022-06-08 11:10:52,203 INFO    SenderThread:25550 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-06-08 11:10:52,203 INFO    MainThread:25550 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 767
+  total_bytes: 767
+}
+
+2022-06-08 11:10:52,204 INFO    SenderThread:25550 [sender.py:transition_state():392] send defer: 1
+2022-06-08 11:10:52,205 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: defer
+2022-06-08 11:10:52,206 INFO    HandlerThread:25550 [handler.py:handle_request_defer():154] handle defer: 1
+2022-06-08 11:10:52,294 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: defer
+2022-06-08 11:10:52,295 INFO    SenderThread:25550 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-06-08 11:10:52,295 INFO    SenderThread:25550 [sender.py:transition_state():392] send defer: 2
+2022-06-08 11:10:52,296 DEBUG   SenderThread:25550 [sender.py:send():235] send: stats
+2022-06-08 11:10:52,297 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: defer
+2022-06-08 11:10:52,297 INFO    HandlerThread:25550 [handler.py:handle_request_defer():154] handle defer: 2
+2022-06-08 11:10:52,298 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: defer
+2022-06-08 11:10:52,298 INFO    SenderThread:25550 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-06-08 11:10:52,298 INFO    SenderThread:25550 [sender.py:transition_state():392] send defer: 3
+2022-06-08 11:10:52,299 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: defer
+2022-06-08 11:10:52,299 INFO    HandlerThread:25550 [handler.py:handle_request_defer():154] handle defer: 3
+2022-06-08 11:10:52,300 DEBUG   SenderThread:25550 [sender.py:send():235] send: summary
+2022-06-08 11:10:52,301 INFO    SenderThread:25550 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-08 11:10:52,302 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: defer
+2022-06-08 11:10:52,302 INFO    SenderThread:25550 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-06-08 11:10:52,302 INFO    SenderThread:25550 [sender.py:transition_state():392] send defer: 4
+2022-06-08 11:10:52,303 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: defer
+2022-06-08 11:10:52,303 INFO    HandlerThread:25550 [handler.py:handle_request_defer():154] handle defer: 4
+2022-06-08 11:10:52,304 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: defer
+2022-06-08 11:10:52,304 INFO    SenderThread:25550 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-06-08 11:10:52,318 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-08 11:10:52,319 INFO    Thread-11 :25550 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/rtaiello/PycharmProjects/PP_Image_Registration/wandb/run-20220608_111043-p5usvgd4/files/wandb-summary.json
+2022-06-08 11:10:52,320 INFO    Thread-11 :25550 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/rtaiello/PycharmProjects/PP_Image_Registration/wandb/run-20220608_111043-p5usvgd4/files/output.log
+2022-06-08 11:10:52,504 INFO    SenderThread:25550 [sender.py:transition_state():392] send defer: 5
+2022-06-08 11:10:52,505 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: poll_exit
+2022-06-08 11:10:52,506 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: defer
+2022-06-08 11:10:52,507 INFO    MainThread:25550 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 767
+  total_bytes: 767
+}
+
+2022-06-08 11:10:52,507 INFO    HandlerThread:25550 [handler.py:handle_request_defer():154] handle defer: 5
+2022-06-08 11:10:52,508 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: defer
+2022-06-08 11:10:52,508 INFO    SenderThread:25550 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-06-08 11:10:52,509 INFO    SenderThread:25550 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-06-08 11:10:52,609 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-08 11:10:53,320 INFO    Thread-11 :25550 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/rtaiello/PycharmProjects/PP_Image_Registration/wandb/run-20220608_111043-p5usvgd4/files/config.yaml
+2022-06-08 11:10:53,322 INFO    SenderThread:25550 [dir_watcher.py:finish():313] scan: /home/rtaiello/PycharmProjects/PP_Image_Registration/wandb/run-20220608_111043-p5usvgd4/files
+2022-06-08 11:10:53,322 INFO    SenderThread:25550 [dir_watcher.py:finish():327] scan save: /home/rtaiello/PycharmProjects/PP_Image_Registration/wandb/run-20220608_111043-p5usvgd4/files/config.yaml config.yaml
+2022-06-08 11:10:53,323 INFO    SenderThread:25550 [dir_watcher.py:finish():327] scan save: /home/rtaiello/PycharmProjects/PP_Image_Registration/wandb/run-20220608_111043-p5usvgd4/files/conda-environment.yaml conda-environment.yaml
+2022-06-08 11:10:53,324 INFO    SenderThread:25550 [dir_watcher.py:finish():327] scan save: /home/rtaiello/PycharmProjects/PP_Image_Registration/wandb/run-20220608_111043-p5usvgd4/files/displacement.npy displacement.npy
+2022-06-08 11:10:53,343 INFO    SenderThread:25550 [dir_watcher.py:finish():327] scan save: /home/rtaiello/PycharmProjects/PP_Image_Registration/wandb/run-20220608_111043-p5usvgd4/files/hparams.yaml hparams.yaml
+2022-06-08 11:10:53,355 INFO    SenderThread:25550 [dir_watcher.py:finish():327] scan save: /home/rtaiello/PycharmProjects/PP_Image_Registration/wandb/run-20220608_111043-p5usvgd4/files/output.log output.log
+2022-06-08 11:10:53,357 INFO    SenderThread:25550 [dir_watcher.py:finish():327] scan save: /home/rtaiello/PycharmProjects/PP_Image_Registration/wandb/run-20220608_111043-p5usvgd4/files/wandb-metadata.json wandb-metadata.json
+2022-06-08 11:10:53,357 INFO    SenderThread:25550 [dir_watcher.py:finish():327] scan save: /home/rtaiello/PycharmProjects/PP_Image_Registration/wandb/run-20220608_111043-p5usvgd4/files/requirements.txt requirements.txt
+2022-06-08 11:10:53,359 INFO    SenderThread:25550 [dir_watcher.py:finish():327] scan save: /home/rtaiello/PycharmProjects/PP_Image_Registration/wandb/run-20220608_111043-p5usvgd4/files/wandb-summary.json wandb-summary.json
+2022-06-08 11:10:53,369 INFO    SenderThread:25550 [sender.py:transition_state():392] send defer: 6
+2022-06-08 11:10:53,389 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: poll_exit
+2022-06-08 11:10:53,397 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: defer
+2022-06-08 11:10:53,397 INFO    HandlerThread:25550 [handler.py:handle_request_defer():154] handle defer: 6
+2022-06-08 11:10:53,399 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: defer
+2022-06-08 11:10:53,399 INFO    SenderThread:25550 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-06-08 11:10:53,399 INFO    SenderThread:25550 [file_pusher.py:finish():177] shutting down file pusher
+2022-06-08 11:10:53,399 INFO    MainThread:25550 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+  other_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 767
+  total_bytes: 21993746
+}
+
+2022-06-08 11:10:53,501 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-08 11:10:53,502 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: poll_exit
+2022-06-08 11:10:53,503 INFO    MainThread:25550 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+  other_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 767
+  total_bytes: 21993746
+}
+
+2022-06-08 11:10:53,614 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-08 11:10:53,618 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: poll_exit
+2022-06-08 11:10:53,624 INFO    MainThread:25550 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+  other_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 767
+  total_bytes: 21993746
+}
+
+2022-06-08 11:10:53,730 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-08 11:10:53,731 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: poll_exit
+2022-06-08 11:10:53,733 INFO    MainThread:25550 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+  other_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 1321746
+  total_bytes: 21993746
+}
+
+2022-06-08 11:10:53,835 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-08 11:10:53,836 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: poll_exit
+2022-06-08 11:10:53,838 INFO    MainThread:25550 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+  other_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 3189522
+  total_bytes: 21993746
+}
+
+2022-06-08 11:10:53,940 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-08 11:10:53,940 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: poll_exit
+2022-06-08 11:10:53,942 INFO    MainThread:25550 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+  other_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 4360978
+  total_bytes: 21993746
+}
+
+2022-06-08 11:10:53,970 INFO    Thread-24 :25550 [upload_job.py:push():137] Uploaded file /home/rtaiello/PycharmProjects/PP_Image_Registration/wandb/run-20220608_111043-p5usvgd4/files/hparams.yaml
+2022-06-08 11:10:53,990 INFO    Thread-21 :25550 [upload_job.py:push():137] Uploaded file /home/rtaiello/PycharmProjects/PP_Image_Registration/wandb/run-20220608_111043-p5usvgd4/files/config.yaml
+2022-06-08 11:10:54,004 INFO    Thread-25 :25550 [upload_job.py:push():137] Uploaded file /home/rtaiello/PycharmProjects/PP_Image_Registration/wandb/run-20220608_111043-p5usvgd4/files/output.log
+2022-06-08 11:10:54,018 INFO    Thread-22 :25550 [upload_job.py:push():137] Uploaded file /home/rtaiello/PycharmProjects/PP_Image_Registration/wandb/run-20220608_111043-p5usvgd4/files/conda-environment.yaml
+2022-06-08 11:10:54,021 INFO    Thread-27 :25550 [upload_job.py:push():137] Uploaded file /home/rtaiello/PycharmProjects/PP_Image_Registration/wandb/run-20220608_111043-p5usvgd4/files/wandb-summary.json
+2022-06-08 11:10:54,025 INFO    Thread-26 :25550 [upload_job.py:push():137] Uploaded file /home/rtaiello/PycharmProjects/PP_Image_Registration/wandb/run-20220608_111043-p5usvgd4/files/requirements.txt
+2022-06-08 11:10:54,044 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-08 11:10:54,045 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: poll_exit
+2022-06-08 11:10:54,046 INFO    MainThread:25550 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+  other_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 5647122
+  total_bytes: 21993746
+}
+
+2022-06-08 11:10:54,148 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-08 11:10:54,149 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: poll_exit
+2022-06-08 11:10:54,150 INFO    MainThread:25550 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+  other_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 7285522
+  total_bytes: 21993746
+}
+
+2022-06-08 11:10:54,252 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-08 11:10:54,253 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: poll_exit
+2022-06-08 11:10:54,255 INFO    MainThread:25550 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+  other_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 8096530
+  total_bytes: 21993746
+}
+
+2022-06-08 11:10:54,357 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-08 11:10:54,358 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: poll_exit
+2022-06-08 11:10:54,359 INFO    MainThread:25550 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+  other_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 9693970
+  total_bytes: 21993746
+}
+
+2022-06-08 11:10:54,461 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-08 11:10:54,461 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: poll_exit
+2022-06-08 11:10:54,463 INFO    MainThread:25550 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+  other_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 10562322
+  total_bytes: 21993746
+}
+
+2022-06-08 11:10:54,565 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-08 11:10:54,566 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: poll_exit
+2022-06-08 11:10:54,567 INFO    MainThread:25550 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+  other_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 12339986
+  total_bytes: 21993746
+}
+
+2022-06-08 11:10:54,669 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-08 11:10:54,669 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: poll_exit
+2022-06-08 11:10:54,671 INFO    MainThread:25550 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+  other_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 13208338
+  total_bytes: 21993746
+}
+
+2022-06-08 11:10:54,772 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-08 11:10:54,772 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: poll_exit
+2022-06-08 11:10:54,772 INFO    MainThread:25550 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+  other_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 14871314
+  total_bytes: 21993746
+}
+
+2022-06-08 11:10:54,874 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-08 11:10:54,875 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: poll_exit
+2022-06-08 11:10:54,876 INFO    MainThread:25550 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+  other_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 15731474
+  total_bytes: 21993746
+}
+
+2022-06-08 11:10:54,978 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-08 11:10:54,979 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: poll_exit
+2022-06-08 11:10:54,980 INFO    MainThread:25550 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+  other_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 16616210
+  total_bytes: 21993746
+}
+
+2022-06-08 11:10:55,082 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-08 11:10:55,083 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: poll_exit
+2022-06-08 11:10:55,084 INFO    MainThread:25550 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+  other_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 18418450
+  total_bytes: 21993746
+}
+
+2022-06-08 11:10:55,186 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-08 11:10:55,187 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: poll_exit
+2022-06-08 11:10:55,188 INFO    MainThread:25550 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+  other_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 19335954
+  total_bytes: 21993746
+}
+
+2022-06-08 11:10:55,290 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-08 11:10:55,291 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: poll_exit
+2022-06-08 11:10:55,293 INFO    MainThread:25550 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+  other_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 20278034
+  total_bytes: 21993746
+}
+
+2022-06-08 11:10:55,395 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-08 11:10:55,396 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: poll_exit
+2022-06-08 11:10:55,397 INFO    MainThread:25550 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+  other_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 21993746
+  total_bytes: 21993746
+}
+
+2022-06-08 11:10:55,498 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-08 11:10:55,498 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: poll_exit
+2022-06-08 11:10:55,499 INFO    MainThread:25550 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+  other_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 21993746
+  total_bytes: 21993746
+}
+
+2022-06-08 11:10:55,600 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-08 11:10:55,600 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: poll_exit
+2022-06-08 11:10:55,600 INFO    MainThread:25550 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+  other_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 21993746
+  total_bytes: 21993746
+}
+
+2022-06-08 11:10:55,702 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-08 11:10:55,703 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: poll_exit
+2022-06-08 11:10:55,704 INFO    MainThread:25550 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+  other_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 21993746
+  total_bytes: 21993746
+}
+
+2022-06-08 11:10:55,806 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-08 11:10:55,807 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: poll_exit
+2022-06-08 11:10:55,808 INFO    MainThread:25550 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+  other_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 21993746
+  total_bytes: 21993746
+}
+
+2022-06-08 11:10:55,910 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-08 11:10:55,911 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: poll_exit
+2022-06-08 11:10:55,912 INFO    MainThread:25550 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+  other_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 21993746
+  total_bytes: 21993746
+}
+
+2022-06-08 11:10:56,015 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-08 11:10:56,015 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: poll_exit
+2022-06-08 11:10:56,017 INFO    MainThread:25550 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+  other_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 21993746
+  total_bytes: 21993746
+}
+
+2022-06-08 11:10:56,060 INFO    Thread-23 :25550 [upload_job.py:push():137] Uploaded file /home/rtaiello/PycharmProjects/PP_Image_Registration/wandb/run-20220608_111043-p5usvgd4/files/displacement.npy
+2022-06-08 11:10:56,119 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-08 11:10:56,120 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: poll_exit
+2022-06-08 11:10:56,121 INFO    MainThread:25550 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+  other_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 21993746
+  total_bytes: 21993746
+}
+
+2022-06-08 11:10:56,223 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-08 11:10:56,224 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: poll_exit
+2022-06-08 11:10:56,226 INFO    MainThread:25550 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+  other_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 21993746
+  total_bytes: 21993746
+}
+
+2022-06-08 11:10:56,262 INFO    Thread-10 :25550 [sender.py:transition_state():392] send defer: 7
+2022-06-08 11:10:56,263 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: defer
+2022-06-08 11:10:56,263 INFO    HandlerThread:25550 [handler.py:handle_request_defer():154] handle defer: 7
+2022-06-08 11:10:56,264 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: defer
+2022-06-08 11:10:56,264 INFO    SenderThread:25550 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-06-08 11:10:56,328 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-08 11:10:59,631 INFO    SenderThread:25550 [sender.py:transition_state():392] send defer: 8
+2022-06-08 11:10:59,631 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: poll_exit
+2022-06-08 11:10:59,634 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: defer
+2022-06-08 11:10:59,633 INFO    MainThread:25550 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 6
+  other_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 21993746
+  total_bytes: 21993746
+}
+
+2022-06-08 11:10:59,634 INFO    HandlerThread:25550 [handler.py:handle_request_defer():154] handle defer: 8
+2022-06-08 11:10:59,636 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: defer
+2022-06-08 11:10:59,636 INFO    SenderThread:25550 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-06-08 11:10:59,637 INFO    SenderThread:25550 [sender.py:transition_state():392] send defer: 9
+2022-06-08 11:10:59,639 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: defer
+2022-06-08 11:10:59,640 DEBUG   SenderThread:25550 [sender.py:send():235] send: final
+2022-06-08 11:10:59,641 DEBUG   SenderThread:25550 [sender.py:send():235] send: footer
+2022-06-08 11:10:59,640 INFO    HandlerThread:25550 [handler.py:handle_request_defer():154] handle defer: 9
+2022-06-08 11:10:59,642 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: defer
+2022-06-08 11:10:59,642 INFO    SenderThread:25550 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-06-08 11:10:59,737 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-08 11:10:59,738 DEBUG   SenderThread:25550 [sender.py:send_request():249] send_request: poll_exit
+2022-06-08 11:10:59,738 INFO    SenderThread:25550 [file_pusher.py:join():182] waiting for file pusher
+2022-06-08 11:11:00,113 INFO    MainThread:25550 [wandb_run.py:_wait_for_finish():1929] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 6
+  other_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 21993746
+  total_bytes: 21993746
+}
+local_info {
+}
+
+2022-06-08 11:11:00,115 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: get_summary
+2022-06-08 11:11:00,118 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: sampled_history
+2022-06-08 11:11:00,123 DEBUG   HandlerThread:25550 [handler.py:handle_request():131] handle_request: shutdown
+2022-06-08 11:11:00,124 INFO    HandlerThread:25550 [handler.py:finish():739] shutting down handler
+2022-06-08 11:11:00,640 INFO    WriterThread:25550 [datastore.py:close():281] close: /home/rtaiello/PycharmProjects/PP_Image_Registration/wandb/run-20220608_111043-p5usvgd4/run-p5usvgd4.wandb
+2022-06-08 11:11:01,113 INFO    SenderThread:25550 [sender.py:finish():1075] shutting down sender
+2022-06-08 11:11:01,114 INFO    SenderThread:25550 [file_pusher.py:finish():177] shutting down file pusher
+2022-06-08 11:11:01,115 INFO    SenderThread:25550 [file_pusher.py:join():182] waiting for file pusher
+2022-06-08 11:11:01,126 INFO    MainThread:25550 [wandb_run.py:_append_history():2144] rendering history
+2022-06-08 11:11:01,127 INFO    MainThread:25550 [wandb_run.py:_append_summary():2102] rendering summary
+2022-06-08 11:11:01,128 INFO    MainThread:25550 [wandb_run.py:_append_files():2194] logging synced files
+2022-06-08 11:11:01,175 INFO    MainThread:25550 [internal.py:handle_exit():79] Internal process exited

@@ -1,0 +1,11 @@
+# @package _global_
+defaults:
+  - override /model: affine
+  - override /metric: ssd
+  - override /data: linear
+  - override /register: base
+  - override/joint_computation: spdz
+logging:
+  debug: False
+  wandb:
+    project: linear

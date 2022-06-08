@@ -1,0 +1,5 @@
+template: ${oc.env:DATA_ROOT}/cubic_spline/template.png
+moving: ${oc.env:DATA_ROOT}/cubic_spline/moving.png
+dir: ${oc.env:DATA_ROOT}/cubic_spline
+scale: 1
+factors: [30.0, 20.0, 10.0, 5.0, 2.0, 1.0]

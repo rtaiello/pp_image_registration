@@ -1,0 +1,5 @@
+debug: False
+
+wandb:
+  entity: privacy-ai
+  mode: 'online'

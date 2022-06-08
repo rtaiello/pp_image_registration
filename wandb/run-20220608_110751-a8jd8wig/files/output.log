@@ -1,0 +1,182 @@
+[2022-06-08 11:07:52,595][hydra.utils][INFO] - src.run_linear.py  - Running <src.models.affine.Affine> - Factor 20.0
+[2022-06-08 11:07:52,746][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 3402
+- Number of pixels after URS sampling: 1024
+[2022-06-08 11:07:52,749][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 3402
+- Number of pixels after URS sampling: 1024
+[2022-06-08 11:07:52,757][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 3402
+- Number of pixels after URS sampling: 1024
+[2022-06-08 11:07:52,761][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 3402
+- Number of pixels after URS sampling: 1024
+[2022-06-08 11:07:52,764][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 3402
+- Number of pixels after URS sampling: 1024
+[2022-06-08 11:07:52,768][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 3402
+- Number of pixels after URS sampling: 1024
+[2022-06-08 11:07:52,771][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 3402
+- Number of pixels after URS sampling: 1024
+[2022-06-08 11:07:52,774][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 3402
+- Number of pixels after URS sampling: 1024
+[2022-06-08 11:07:52,778][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 3402
+- Number of pixels after URS sampling: 1024
+[2022-06-08 11:07:52,781][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 3402
+- Number of pixels after URS sampling: 1024
+[2022-06-08 11:07:52,784][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 3402
+- Number of pixels after URS sampling: 1024
+[2022-06-08 11:07:52,788][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 3402
+- Number of pixels after URS sampling: 1024
+[2022-06-08 11:07:52,791][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 3402
+- Number of pixels after URS sampling: 1024
+[2022-06-08 11:07:52,803][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 3402
+- Number of pixels after URS sampling: 1024
+[2022-06-08 11:07:52,806][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 3402
+- Number of pixels after URS sampling: 1024
+[2022-06-08 11:07:52,834][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 3402
+- Number of pixels after URS sampling: 1024
+[2022-06-08 11:07:52,838][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 3402
+- Number of pixels after URS sampling: 1024
+[2022-06-08 11:07:52,843][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 3402
+- Number of pixels after URS sampling: 1024
+[2022-06-08 11:07:52,854][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 3402
+- Number of pixels after URS sampling: 1024
+[2022-06-08 11:07:52,858][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 3402
+- Number of pixels after URS sampling: 1024
+[2022-06-08 11:07:52,859][hydra.utils][INFO] - src.run_linear.py  - Finished <src.models.affine.Affine> - Factor 20.0
+[2022-06-08 11:07:52,861][hydra.utils][INFO] - src.run_linear.py  - Running <src.models.affine.Affine> - Factor 10.0
+[2022-06-08 11:07:53,027][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 13734
+- Number of pixels after URS sampling: 4096
+[2022-06-08 11:07:53,038][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 13734
+- Number of pixels after URS sampling: 4096
+[2022-06-08 11:07:53,051][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 13734
+- Number of pixels after URS sampling: 4096
+[2022-06-08 11:07:53,064][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 13734
+- Number of pixels after URS sampling: 4096
+[2022-06-08 11:07:53,078][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 13734
+- Number of pixels after URS sampling: 4096
+[2022-06-08 11:07:53,091][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 13734
+- Number of pixels after URS sampling: 4096
+[2022-06-08 11:07:53,128][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 13734
+- Number of pixels after URS sampling: 4096
+[2022-06-08 11:07:53,141][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 13734
+- Number of pixels after URS sampling: 4096
+[2022-06-08 11:07:53,155][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 13734
+- Number of pixels after URS sampling: 4096
+[2022-06-08 11:07:53,168][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 13734
+- Number of pixels after URS sampling: 4096
+[2022-06-08 11:07:53,169][hydra.utils][INFO] - f src.register_abstract_register.py
+Stopping condition
+[2022-06-08 11:07:53,169][hydra.utils][INFO] - src.run_linear.py  - Finished <src.models.affine.Affine> - Factor 10.0
+[2022-06-08 11:07:53,169][hydra.utils][INFO] - src.run_linear.py  - Running <src.models.affine.Affine> - Factor 5.0
+[2022-06-08 11:07:53,406][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 54936
+- Number of pixels after URS sampling: 8192
+[2022-06-08 11:07:53,442][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 54936
+- Number of pixels after URS sampling: 8192
+[2022-06-08 11:07:53,479][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 54936
+- Number of pixels after URS sampling: 8192
+[2022-06-08 11:07:53,516][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 54936
+- Number of pixels after URS sampling: 8192
+[2022-06-08 11:07:53,556][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 54936
+- Number of pixels after URS sampling: 8192
+[2022-06-08 11:07:53,593][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 54936
+- Number of pixels after URS sampling: 8192
+[2022-06-08 11:07:53,662][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 54936
+- Number of pixels after URS sampling: 8192
+[2022-06-08 11:07:53,751][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 54936
+- Number of pixels after URS sampling: 8192
+[2022-06-08 11:07:53,818][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 54936
+- Number of pixels after URS sampling: 8192
+[2022-06-08 11:07:53,826][hydra.utils][INFO] - f src.register_abstract_register.py
+Stopping condition
+[2022-06-08 11:07:53,826][hydra.utils][INFO] - src.run_linear.py  - Finished <src.models.affine.Affine> - Factor 5.0
+[2022-06-08 11:07:53,826][hydra.utils][INFO] - src.run_linear.py  - Running <src.models.affine.Affine> - Factor 2.0
+[2022-06-08 11:07:54,323][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 343350
+- Number of pixels after URS sampling: 16384
+[2022-06-08 11:07:54,526][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 343350
+- Number of pixels after URS sampling: 16384
+[2022-06-08 11:07:54,753][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 343350
+- Number of pixels after URS sampling: 16384
+[2022-06-08 11:07:54,954][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 343350
+- Number of pixels after URS sampling: 16384
+[2022-06-08 11:07:55,159][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 343350
+- Number of pixels after URS sampling: 16384
+[2022-06-08 11:07:55,356][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 343350
+- Number of pixels after URS sampling: 16384
+[2022-06-08 11:07:55,559][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 343350
+- Number of pixels after URS sampling: 16384
+[2022-06-08 11:07:55,760][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 343350
+- Number of pixels after URS sampling: 16384
+[2022-06-08 11:07:55,966][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 343350
+- Number of pixels after URS sampling: 16384
+[2022-06-08 11:07:56,197][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 343350
+- Number of pixels after URS sampling: 16384
+[2022-06-08 11:07:56,403][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 343350
+- Number of pixels after URS sampling: 16384
+[2022-06-08 11:07:56,605][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 343350
+- Number of pixels after URS sampling: 16384
+[2022-06-08 11:07:56,820][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 343350
+- Number of pixels after URS sampling: 16384
+[2022-06-08 11:07:57,021][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 343350
+- Number of pixels after URS sampling: 16384
+[2022-06-08 11:07:57,028][hydra.utils][INFO] - f src.register_abstract_register.py
+Stopping condition
+[2022-06-08 11:07:57,031][hydra.utils][INFO] - src.run_linear.py  - Finished <src.models.affine.Affine> - Factor 2.0
+[2022-06-08 11:07:57,031][hydra.utils][INFO] - src.run_linear.py  - Running <src.models.affine.Affine> - Factor 1.0
+[2022-06-08 11:07:58,184][hydra.utils][INFO] - src.registers.urs_register.py - percent of used pixels: 5
+- Original number of pixel: 1373400
+- Number of pixels after URS sampling: 32768
+[2022-06-08 11:07:58,206][hydra.utils][INFO] - src.run_linear.py  - Finished <src.models.affine.Affine> - Factor 1.0
+[2022-06-08 11:07:58,208][hydra.utils][INFO] - src.run_linear.py - Writing warped image: /home/rtaiello/PycharmProjects/PP_Image_Registration/data/linear/warped_affine.png
+[2022-06-08 11:07:58,779][hydra.utils][INFO] - src.run_linear.py
+Total Time - Party 1 (s): 0.004108905792236328  - Total Time - Party 2 (s): 0.004108905792236328
+ Total Comm - Party 1 (MB): 0.0  - Total Comm - Party 2 (MB): 0.0

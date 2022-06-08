@@ -1,0 +1,14 @@
+template: ${oc.env:DATA_ROOT}/non_linear/template_slice.nii
+moving: ${oc.env:DATA_ROOT}/non_linear/moving_slice.nii
+warped_affine: ${oc.env:DATA_ROOT}/non_linear/warped_affine.nii
+dir: ${oc.env:DATA_ROOT}/non_linear
+scale: 1e10
+iterations:
+    2.0:
+      max_iter: 500
+      max_bad: 200
+    1.0:
+      max_iter: -1
+      max_bad: 10
+preprocessing:
+  _target_: src.common.preprocessing.non_linear

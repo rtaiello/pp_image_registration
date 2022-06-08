@@ -1,0 +1,4 @@
+_target_: src.joint_computations.ckks.v1.ckks_v1.CKKSv1
+name: ckks_v1
+dim_split_vectors: 128
+n_threads: -1

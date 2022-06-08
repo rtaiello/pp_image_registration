@@ -1,0 +1,4 @@
+_target_: src.registers.base_register.BaseRegister
+max_bad: 200
+max_iter: 500
+name: base

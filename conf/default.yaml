@@ -1,0 +1,13 @@
+# metadata specialised for each experiment
+core:
+  name: run_0
+
+defaults:
+  - data: linear
+  - hydra: default
+  - logging: wandb
+  - metric: ssd
+  - model: affine
+  - joint_computation: clear
+  - register: urs
+  - sampler: spline
