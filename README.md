@@ -29,7 +29,7 @@ Anaconda can be installed in your user directory and does not interfere with the
 
 ## Results
 * Linear Transformation - [wandb.ai](https://wandb.ai/ppir/miccai_2022_linear?workspace=user-riccardo-taiello)
-* Non-Linear Transformation - [wandb.ai](https://wandb.ai/ppir/miccai_2022_linear?workspace=user-riccardo-taiello)
+* Non-Linear Transformation - [wandb.ai](https://wandb.ai/ppir/miccai_2022_non_linear?workspace=user-riccardo-taiello)
 * Supplementary Material (Coming soon) - [wandb.ai]()
 ## Authors
 * **Riccardo Taiello**  - [github](https://github.com/rtaiello) - [website](https://rtaiello.github.io)
