@@ -1,4 +1,0 @@
-[2022-06-08 11:03:44,378][hydra.utils][INFO] - src.run_linear.py - Loading template: /home/rtaiello/PycharmProjects/PP_Image_Registration/data/linear/template.png
-[2022-06-08 11:03:44,379][hydra.utils][INFO] - src.run_linear.py - Loading moving: /home/rtaiello/PycharmProjects/PP_Image_Registration/data/linear/moving.png
-[2022-06-08 11:03:44,438][hydra.utils][INFO] - src.run_linear.py - Instantiating <src.registers.urs_register.URSRegister>
-[2022-06-08 11:03:44,439][hydra.utils][INFO] - src.run_linear.py  - Running <src.models.affine.Affine> - Factor 20.0

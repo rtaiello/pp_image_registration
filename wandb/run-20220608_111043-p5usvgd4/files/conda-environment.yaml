@@ -1,4 +1,0 @@
-name: base
-channels:
-  - defaults
-prefix: /usr
