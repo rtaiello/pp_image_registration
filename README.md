@@ -40,3 +40,6 @@ Anaconda can be installed in your user directory and does not interfere with the
 * **Riccardo Taiello**  - [github](https://github.com/rtaiello) - [website](https://rtaiello.github.io)
 * **Francesco Capano**  - [github](https://github.com/fra-cap) - [website](https://www.linkedin.com/in/francesco-capano/)
 
+## Cite this work (coming soon)
+```
+```
