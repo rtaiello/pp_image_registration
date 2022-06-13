@@ -65,7 +65,7 @@ class SPDZ(AbstractJC):
         return result_dec.numpy()
 
     @staticmethod
-    def _count_bytes(worker):
+    def _count_bytes(worker) -> float:
         """
         Counts the number of bytes. As messages in PySyft seem to be bytes objects we can use the length to determine
         the number of bytes per message:

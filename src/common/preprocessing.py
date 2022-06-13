@@ -1,18 +1,18 @@
 import nibabel as nib
 import numpy as np
-import scipy.ndimage as nd
+from typing import Tuple
 from PIL import Image
 
 from src.registers.abstract_register import RegisterData
 
 
-def linear(image_path, template_path):
+def linear(image_path: str, template_path: str) -> Tuple[np.ndarray, np.ndarray]:
     template: np.ndarray = np.array(Image.open(template_path).convert("L"))
     image: np.ndarray = np.array(Image.open(image_path).convert("L"))
     return image, template
 
 
-def non_linear(image_path, template_path):
+def non_linear(image_path: str, template_path: str) -> Tuple[np.ndarray, np.ndarray]:
     """
 
     :param image_path: path to the image
@@ -27,7 +27,7 @@ def non_linear(image_path, template_path):
     return image, template
 
 
-def non_linear_supplementary(image_path, template_path):
+def non_linear_supplementary(image_path: str, template_path: str) -> Tuple[np.ndarray, np.ndarray]:
     template: np.ndarray = np.array(Image.open(template_path).convert("L"))
     image = np.array(Image.open(image_path).convert("L"))
     template = RegisterData._smooth(template, 0.5)

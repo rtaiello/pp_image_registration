@@ -6,20 +6,7 @@ from src.models.abstract_model import AbstractModel
 
 
 class AbstractMetric(ABC):
-    """
-    Abstract similarity metric.
 
-    Attributes
-    ----------
-    METRIC : string
-        The type of similarity metric being used.
-    DESCRIPTION : string
-        A meaningful description of the metric used, with references where
-        appropriate.
-    """
-
-    METRIC = None
-    DESCRIPTION = None
 
     @abstractmethod
     def error(self, warped_image: np.ndarray, template_image: np.ndarray) -> np.ndarray:

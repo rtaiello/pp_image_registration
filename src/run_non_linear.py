@@ -34,8 +34,8 @@ def run(cfg: DictConfig) -> None:
 
     scale: float = cfg.data.scale
 
-    template = template * scale
-    image = image * scale
+    template: np.ndarray = template * scale
+    image: np.ndarray  = image * scale
     logger = None
     step: Optional[OptStep] = None
 
@@ -57,7 +57,7 @@ def run(cfg: DictConfig) -> None:
     displacement: Optional[np.ndarray] = None
 
     for item in cfg.data.iterations.items():
-        factor = item[0]
+        factor: float = item[0]
         cfg.register.max_iter = (
             item[1]["max_iter"] if item[1]["max_iter"] != -1 else cfg.register.max_iter
         )
@@ -98,7 +98,7 @@ def run(cfg: DictConfig) -> None:
         megabytes_party_1.append(current_megabytes_party_1)
         megabytes_party_2.append(current_megabytes_party_2)
 
-        displacement = step.displacement
+        displacement: np.ndarray = step.displacement
 
         hydra.utils.log.info(
             f"src.run_non_linear.py -  Finished <{cfg.model._target_}> Factor {factor}"
@@ -114,13 +114,14 @@ def run(cfg: DictConfig) -> None:
     )
     if not cfg.logging.debug:
         log_statistics(
-            logger,
-            iterations,
-            step.error,
-            megabytes_party_1,
-            megabytes_party_2,
-            times_party_1,
-            times_party_2,
+            logger=logger,
+            iterations=iterations,
+            error=step.error,
+            disp_error=displacement,
+            megabytes_party_1=megabytes_party_1,
+            megabytes_party_2=megabytes_party_2,
+            times_party_1=times_party_1,
+            times_party_2=times_party_2,
         )
 
         save_resources(cfg=cfg, displacement=step.displacement)
