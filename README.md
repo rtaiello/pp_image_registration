@@ -21,11 +21,14 @@ You'll need a working Python environment to run the code.
 The recommended way to set up your environment is through the [Anaconda Python distribution](https://www.anaconda.com/products/distribution)
 which provides the `conda` package manager. 
 Anaconda can be installed in your user directory and does not interfere with the system Python installation.
-### How to run
+### Configuration
 - Download the repository: `git clone https://github.com/rtaiello/PP_Image_Registration`
 - Create the environment: `conda create -n pp_img_regr python=3.7`
 - Activate the environment: `conda activate pp_img_regr`
 - Install the dependencies: `pip install -r requirements.txt`
+
+### Lunch an experiment
+Coming soon!
 
 ## Results
 * Linear Transformation - [wandb.ai](https://wandb.ai/ppir/miccai_2022_linear?workspace=user-riccardo-taiello)
