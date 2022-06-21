@@ -27,7 +27,7 @@ Anaconda can be installed in your user directory and does not interfere with the
 - Activate the environment: `conda activate pp_img_regr`
 - Install the dependencies: `pip install -r requirements.txt`
 
-### Lunch an experiment
+### Launch an experiment
 Coming soon!
 
 ## Results
