@@ -33,7 +33,7 @@ Launch an Affine Registration, using Base (no sampling) with SPDZ (MPC protocol)
 - template image is `data/linear/template.png`
 #### Run 🚀
 `PYTHONPATH=. python3 src/run_linear.py -m joint_computation=clear,spdz data=linear register=base model=affine`<br>
-The SPDZ results is reported in `data/linear/spdz/base/warped_affine.png`, and the clear one in `data/linear/clear/base/warped_affine.png`.
+The SPDZ result is reported in `data/linear/spdz/base/warped_affine.png`, and the clear one in `data/linear/clear/base/warped_affine.png`.
 ## Results 📊
 * Linear Transformation - [wandb.ai](https://wandb.ai/ppir/miccai_2022_linear?workspace=user-riccardo-taiello)
 * Non-Linear Transformation - [wandb.ai](https://wandb.ai/ppir/miccai_2022_non_linear?workspace=user-riccardo-taiello)
