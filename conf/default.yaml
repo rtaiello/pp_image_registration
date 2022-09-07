@@ -9,5 +9,5 @@ defaults:
   - metric: ssd
   - model: affine
   - joint_computation: clear
-  - register: urs
+  - register: base
   - sampler: spline

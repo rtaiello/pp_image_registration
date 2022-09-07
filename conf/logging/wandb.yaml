@@ -1,5 +1,5 @@
-debug: False
+debug: True
 
 wandb:
-  entity: privacy-ai
+  entity: 'your_entity'
   mode: 'online'
