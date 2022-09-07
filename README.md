@@ -28,9 +28,13 @@ Anaconda can be installed in your user directory and does not interfere with the
 - Install the dependencies: `pip install -r requirements.txt`
 
 ### Launch an experiment
-Coming soon!
+Launch an Affine Registration, using Base (no sampling) with SPDZ (MPC protocol):
+- moving image is inside [data/linear/moving.png](https://github.com/rtaiello/pp_image_registration/blob/main/data/linear/moving.png)
+- template image is inside [data/linear/template.png](https://github.com/rtaiello/pp_image_registration/blob/main/data/linear/template.png)
+## Run 🚀
+`PYTHONPATH=. python3 src/run_linear.py -m joint_computation=clear,spdz data=linear register=base model=affine`
 
-## Results
+## Results 📊
 * Linear Transformation - [wandb.ai](https://wandb.ai/ppir/miccai_2022_linear?workspace=user-riccardo-taiello)
 * Non-Linear Transformation - [wandb.ai](https://wandb.ai/ppir/miccai_2022_non_linear?workspace=user-riccardo-taiello)
 * Supplementary Material - [wandb.ai](https://wandb.ai/ppir/miccai_2022_non_linear_supplementary?workspace=user-riccardo-taiello)
