@@ -50,3 +50,8 @@ Launch an Affine Registration, using Base (no sampling) with SPDZ (MPC protocol)
 ## Cite this work (coming soon)
 ```
 ```
+## MICCAI 2022
+[![Watch the video](https://img.youtube.com/vi/bNg9xRER_Uk/maxresdefault.jpg)](https://youtu.be/bNg9xRER_Uk)</br>
+<p align="center">
+Slides are available <a href="https://rtaiello.github.io/assets/data/slides_ppir_miccai_2022.pdf">here</a>
+</p>
