@@ -49,6 +49,19 @@ Launch an Affine Registration, using Base (no sampling) with SPDZ (MPC protocol)
 
 ## Cite this work (coming soon)
 ```
+@InProceedings{10.1007/978-3-031-16446-0_13,
+author="Taiello, Riccardo
+and {\"O}nen, Melek
+and Humbert, Olivier
+and Lorenzi, Marco",
+title="Privacy Preserving Image Registration",
+booktitle="Medical Image Computing and Computer Assisted Intervention -- MICCAI 2022",
+year="2022",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="130--140",
+isbn="978-3-031-16446-0"
+}
 ```
 ## MICCAI 2022 - Poster Presentation 🎥
 [![Watch the video](https://img.youtube.com/vi/bNg9xRER_Uk/maxresdefault.jpg)](https://youtu.be/bNg9xRER_Uk)</br>
