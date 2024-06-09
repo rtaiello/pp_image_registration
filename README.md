@@ -4,6 +4,7 @@
 ![Inria](https://img.shields.io/badge/-INRIA-red) 
 ![Eurecom](https://img.shields.io/badge/-EURECOM-blue) <br> 
 [![Conference](https://img.shields.io/badge/MICCAI-2022-blue)](https://conferences.miccai.org/2022/en/)
+[![Journal](https://img.shields.io/badge/MEDIA-2024-green)](https://www.sciencedirect.com/journal/medical-image-analysis/vol/94/suppl/C)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 <br>
 ![Image Results](github_images/result.png)
