@@ -54,7 +54,7 @@ Launch an Affine Registration, using Base (no sampling) with SPDZ (MPC protocol)
 * **Riccardo Taiello**  - [github](https://github.com/rtaiello) - [website](https://rtaiello.github.io)
 * **Francesco Capano**  - [github](https://github.com/fra-cap) - [LinkedIn](https://www.linkedin.com/in/francesco-capano/)
 
-## Cite this work (coming soon)
+## Cite this work
 ```
 @InProceedings{10.1007/978-3-031-16446-0_13,
 author="Taiello, Riccardo
